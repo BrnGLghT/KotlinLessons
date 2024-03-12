@@ -6,9 +6,9 @@ fun main(){
     val interns = 30
     val interSalary = 20000
 
-    val sumEmplPayments = 50 * 30000
-    val sumAllPayments = sumEmplPayments + (30 * 20000)
-    val averageSalary = sumAllPayments / (50+30)
+    val sumEmplPayments = employees * emplSalary
+    val sumAllPayments = sumEmplPayments + (interns * interSalary)
+    val averageSalary = sumAllPayments / (employees+interns)
 
     println(sumEmplPayments.toInt())
     println(sumAllPayments.toInt())
