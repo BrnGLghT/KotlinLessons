@@ -1,5 +1,4 @@
 package org.example.lesson1
 
-fun main(){
-    println("asd")
-}
+val orderQty: Int = 75
+val gratsForPurchase: String = "Thank you for your purchase!"
