@@ -10,7 +10,8 @@ fun main(){
     val sumAllPayments = sumEmplPayments + (interns * interSalary)
     val averageSalary = sumAllPayments / (employees+interns)
 
-    println(sumEmplPayments.toInt())
-    println(sumAllPayments.toInt())
-    println(averageSalary.toInt())
+    println(sumEmplPayments)
+    println(sumAllPayments)
+    println(averageSalary)
+    //переводил значения в Int чтобы перестраховаться, если входящие значения будут не целыми
 }
